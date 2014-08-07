@@ -1,4 +1,4 @@
-CCA Introduction to Computer Programming
+Introduction to Computer Programming
 =================
 
 This is the repository for all things related to the 2014-2015 Introduction to Computer Programming class offered at CCA.
