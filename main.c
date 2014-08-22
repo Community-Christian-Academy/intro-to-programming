@@ -11,7 +11,7 @@
 #include "SumIntegers.h"
 
 int main() {
-    printf("Hello, World!\n");
+    printf("What's up?\n");
     
     int x = 41;
     printf("the number is:  %d\n", x);
