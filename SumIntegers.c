@@ -27,8 +27,9 @@ int integerSum(int firstInteger, int lastInteger) {
 
 int iterativeSumFrom(int x) {
     int runningTotal = 0;
-    
-    for (int i = runningTotal; i <= x; i++) {
+    int i = 0;
+ 
+    for (i = runningTotal; i <= x; i++) {
         runningTotal = runningTotal + i;
     }
     return runningTotal;
