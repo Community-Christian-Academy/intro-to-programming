@@ -27,8 +27,8 @@ int iterativeFibonacci(int x) {
     int y = 0;
     int previousNumber = 1;
     int otherPreviousNumber = 0;
-    
-    for (int i = 3; i <= x; i++) {
+    int i = 0;   
+    for (i = 3; i <= x; i++) {
         y = otherPreviousNumber + previousNumber;
         otherPreviousNumber = previousNumber;
         previousNumber = y;
