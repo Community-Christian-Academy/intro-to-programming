@@ -5,7 +5,7 @@ int half(int a) {
 }
 
 int timesTwo(int b) {
-    return b+b;
+    return b*4/2;
 }
 
 int main() {
