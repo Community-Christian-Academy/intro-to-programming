@@ -15,6 +15,6 @@ int sumFrom(int x);
 
 // these three functions do the math backing the for sumFrom(int) function above,
 // each calculates sumFrom in is own way, as named
-int gaussianSumFrom(int x);
-int iterativeSumFrom(int x);
+long int gaussianSumFrom(long int x);
+long int iterativeSumFrom(int x);
 int recursiveSumFrom(int x);
