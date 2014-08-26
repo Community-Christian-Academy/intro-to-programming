@@ -25,11 +25,12 @@ int integerSum(int firstInteger, int lastInteger) {
 
 
 
-int iterativeSumFrom(int x) {
-    int runningTotal = 0;
-    int i = 0;
+long int iterativeSumFrom(int x) {
+    long int runningTotal = 0;
+    long int i = 0;
  
     for (i = runningTotal; i <= x; i++) {
+        printf("hey!  looping at %lu!\n", i);
         runningTotal = runningTotal + i;
     }
     return runningTotal;
@@ -54,8 +55,8 @@ int recursiveSumFrom(int x) {
 
 
 
-int gaussianSumFrom(int x) {
-    return x*(x + 1)/2;
+long int gaussianSumFrom(long int x) {
+    return (x * (x + 1))/2;
 }
 
 
