@@ -22,7 +22,7 @@ int main(int argc, const char * argv[])
     for (int i = 0; i < 10; i++) {
         printf("i = %d\n", i);
         for (int j = 10; j > i; j--) {
-            printf("whee!!!\n");
+            printf("whee!!!!\n");
             printf("j = %d\n", j);
         }
     }
