@@ -23,11 +23,16 @@ int recursiveFibonacci(int anInteger) {
 }
 
 
-int iterativeFibonacci(int x) {
+ int iterativeFibonacci(int x) {
+    printf("Boom!\n");
     int y = 0;
+    printf("TNT!"\n);
     int previousNumber = 1;
-    int otherPreviousNumber = 0;
-    int i = 0;   
+    printf("Whoop!"\n);
+int otherPreviousNumber = 0;
+    printf("Haha!"\n);
+    int i = 0;
+    printf("Boomshakalaka!"\n);
     for (i = 3; i <= x; i++) {
         y = otherPreviousNumber + previousNumber;
         otherPreviousNumber = previousNumber;
