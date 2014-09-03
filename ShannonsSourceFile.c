@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int MY_AWESOME_PIN = 6831;
+int Wegonnabeatmccracken = 6831;
 
 int testLogin(int pin) {
-    if (pin == MY_AWESOME_PIN) {
+    if (pin == wegonnabeatmccracken) {
         return 1; // this means 'yes'
     }
     return 0; // this means 'no'
