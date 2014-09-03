@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void whilePlay() {
+void whilePlay () {
     int x = 1;
     int y = 0;
     
@@ -18,12 +18,14 @@ void whilePlay() {
 
 int main(int argc, const char * argv[])
 {
-    
+    int i;
     for (int i = 0; i < 10; i++) {
         printf("i = %d\n", i);
+        int j;
         for (int j = 10; j > i; j--) {
-            printf("whee!!!\n");
-            printf("j = %d\n", j);
+        printf("whee!!!\n");
+        for (int q = -10; q < j; q++)
+        printf("j = %d\n", j);
         }
     }
     
