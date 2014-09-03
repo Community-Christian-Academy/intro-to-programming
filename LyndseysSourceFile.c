@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int MY_AWESOME_PIN = 6831;
+int MY_AWESOME_PIN = 2424;
 
 int testLogin (int pin) {
     if (pin == MY_AWESOME_PIN) {
@@ -12,10 +12,10 @@ int testLogin (int pin) {
 int main(int argc, const char * argv[])
 {
     int i;
-    for (i = 0; i <= 9999; i++)  {
+    for (i = 0; i <= 4242; i++)  {
         printf("let's try PIN: %d\n", i);
         if (testLogin(i)) {
-            printf("you guessed it!\n");
+            printf("you got it!\n");
         }
     }
     
