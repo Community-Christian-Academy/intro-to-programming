@@ -1,8 +1,8 @@
-main.c
+
 
 	#include <stdio.h>
 
-	int MY_AWESOME_PIN = 1506
+	int MY_AWESOME_PIN = 1506;
 
 	int testlogin(int pin) {
 	if (pin == MY_AWESOME_PIN){
